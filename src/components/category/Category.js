@@ -9,7 +9,6 @@ export default function Category() {
         Our popular <span>Category</span>
       </Title>
       <Items />
-      <Item/>
     </div>
   );
 }
