@@ -1,10 +1,10 @@
 import React from "react";
-import Main from "./components/Main";
 import "./App.css";
+import NavRouter from "./components/Routes/Nav__router";
 const App = () => {
   return (
     <div className="container">
-      <Main />
+      <NavRouter/>
     </div>
   );
 };
