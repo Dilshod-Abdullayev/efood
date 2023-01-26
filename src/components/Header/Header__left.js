@@ -14,7 +14,7 @@ export const Title = styled.h1`
   }
 `;
 
-const Text = styled.p`
+export const Text = styled.p`
   font-style: normal;
   font-weight: 400;
   font-size: 20px;

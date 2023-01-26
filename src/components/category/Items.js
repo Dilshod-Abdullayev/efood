@@ -5,7 +5,7 @@ import { FaPizzaSlice } from "react-icons/fa";
 import { GiSandwich } from "react-icons/gi";
 import { IoFastFoodOutline } from "react-icons/io5";
 import { BsFillMenuAppFill } from "react-icons/bs";
-import { useReducer, useContext, createContext } from "react";
+import { useReducer } from "react";
 import Item from "./Item";
 import { Data__items } from "../Data/Data";
 
@@ -14,7 +14,7 @@ const styleIcon = {
   padding: "5px",
 };
 
-const initialState = { count: null };
+const initialState = { count: Data__items.burger };
 export default function Items() {
   const reducer = (state, action) => {
     switch (action.type) {
