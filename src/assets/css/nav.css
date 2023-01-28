@@ -13,7 +13,8 @@
 .nav-items {
   display: flex;
 }
-.nav-item {
+.nav-item,
+.link {
   display: inline-block;
   font-style: normal;
   font-weight: 400;
@@ -21,6 +22,7 @@
   line-height: 21px;
   color: #363853;
   margin-left: 40px;
+  text-decoration: none;
   cursor: pointer;
 }
 .nav-item:hover {

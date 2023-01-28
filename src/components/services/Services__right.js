@@ -4,15 +4,10 @@ import "../../assets/css/main.css";
 import img1 from "../../assets/img/Timer icon.png";
 import img2 from "../../assets/img/Vector (6).png";
 import img3 from "../../assets/img/Vector (7).png";
-import { useState } from "react";
-import More from "./More";
-
+import { ThemeConext } from "./Services";
+import { useContext } from "react";
 const ServicesRight = () => {
-  const [state, setState] = useState(false);
-  const handleClick = () => {
-    setState((prev) => !prev);
-  };
-  console.log(state);
+  const data = useContext(ThemeConext);
   return (
     <div className="services__right">
       <h1 className="menu__title">
@@ -31,10 +26,9 @@ const ServicesRight = () => {
       <div className="menu__item">
         <img src={img3} /> <p>500+ restaurant & cafe shop</p>
       </div>
-      <Button onClick={handleClick} style={{ marginTop: "25px" }}>
+      <Button onClick={data} style={{ marginTop: "25px" }}>
         See more
       </Button>
-      
     </div>
   );
 };

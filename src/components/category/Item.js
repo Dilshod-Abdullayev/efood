@@ -3,7 +3,6 @@ import "../../assets/css/main.css";
 import { Button } from "../Navbar/Login";
 import "../../assets/css/main.css";
 export default function Item({ value }) {
-  console.log(value);
   return (
     <div className="category__item-boxs">
       {value.map((item) => (

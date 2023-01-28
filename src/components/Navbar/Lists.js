@@ -6,16 +6,16 @@ const Lists = () => {
     <>
       <ul className="nav-items">
         <li className="nav-item">
-          <Link to='/'>Home</Link>
+          <Link className="link" to='/'>Home</Link>
         </li>
         <li className="nav-item">
-          <Link to='/service'>Service</Link>
+          <Link className="link" to='/service'>Service</Link>
         </li>
         <li className="nav-item">
-          <Link to="/cities">Top cities</Link>
+          <Link className="link" to="/cities">Top cities</Link>
         </li>
         <li className="nav-item">
-          <Link to='/contract'>Contract</Link>
+          <Link className="link" to='/Contact'>Contact</Link>
         </li>
       </ul>
     </>
